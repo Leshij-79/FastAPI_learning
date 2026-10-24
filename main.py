@@ -54,7 +54,8 @@ async def retrieve_user_profile(
     profiles_dict = {
         'alex': {'name': 'Александр', 'age': 33, 'phone': '+79463456789', 'email': 'alex@my-site.com'},
     }
-    if username in profiles_dict:
-        return profiles_dict[username]
-    else:
-        return {"message": f"Пользователь {username} не найден."}
+    # if username in profiles_dict:
+    #     return profiles_dict[username]
+    # else:
+    #     return {"message": f"Пользователь {username} не найден."}
+    return profiles_dict.get(username, {'message': f'Пользователь {username} не найден.'})
