@@ -13,7 +13,9 @@ dependencies = [
     "pydantic[email] (>=2.14.1,<3.0.0)",
     "email-validator (>=2.3.0,<3.0.0)",
     "pydantic2 (>=1.1.15,<2.0.0)",
-    "pydantic3 (>=1.0.14,<2.0.0)"
+    "pydantic3 (>=1.0.14,<2.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)",
+    "python-multipart (>=0.0.32,<0.0.33)"
 ]
 
 
